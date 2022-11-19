@@ -6,4 +6,8 @@
 #### При выполнении работы были применены следующие инструменты:
 * flexbox;
 * Grid Layout;
+<<<<<<< HEAD
+=======
+
+>>>>>>> dc1756a14009da44986c6599c68251359ec1c171
 [Ссылка на работу](https://anatoly-air.github.io/russian-travel)
