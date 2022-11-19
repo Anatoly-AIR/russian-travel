@@ -1,5 +1,6 @@
 .place__paragraph {
   box-sizing: border-box;
+  font-family: 'Inter';
   font-size: 18px;
   line-height: 29px;
   font-weight: 400;
