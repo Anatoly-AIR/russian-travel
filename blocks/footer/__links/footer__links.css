@@ -1,9 +1,11 @@
 .footer__links {
   min-width: 50px;
-  display: inline-block; /*это свойство нужно для того,
-  чтобы расположить пункты меню в строку. Без него элементы <li> списка <ul>
-  распологаются в колонку*/
+  list-style-type: none;
   margin: 0 18px 0 0;
+}
+
+.footer__links:last-child {
+  margin: 0;
 }
 
 @media screen and (max-width: 390px) {
