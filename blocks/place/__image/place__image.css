@@ -39,9 +39,16 @@
 
 @media screen and (max-width: 587px) {
   .place__image {
-    max-width: 389px;
-    max-height: 389px;
+    max-width: 390px;
+    max-height: 390px;
     margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 406px) {
+  .place__image {
+    max-width: 370px;
+    max-height: 370px;
   }
 }
 

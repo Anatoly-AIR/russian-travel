@@ -4,11 +4,11 @@
   grid-template-columns: minmax(min-content, 1fr) minmax(min-content, 1fr);
   column-gap: 17px;
   row-gap: 48px;
-  padding-bottom: 80px;
+  padding: 0 0 80px;
   margin: 0 auto;
 }
 
-.place:last-child {
+.place:last-of-type {
   padding-bottom: 0;
 }
 
@@ -30,8 +30,7 @@
 @media screen and (max-width: 850px) {
   .place {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    column-gap: 28px;
-    padding-bottom: 73px;
+    padding: 0 0 73px;
   }
 }
 
